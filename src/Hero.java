@@ -13,15 +13,15 @@ public class Hero {
     @Override
     public String toString() {
         return "Hero{" +
-            "name'" + name '\'' +
-            ", rank='" + rank + '\'' +
-            "level='" + level + '\'' +
-            '}';
+                "name='" + name + '\'' +
+                ", rank='" + rank + '\'' +
+                ", level='" + level + '\'' +
+                '}';
     }
 
     //testing the class
     public static void main(String args[]) throws Exception {
-        Hero hero = new Hero("Hero", "Black Mage", 6;
-        System.out.printline(Hero);
+        Hero hero = new Hero("Hero", "Black Mage", 6);
+        System.out.println(hero);
     }
 }
