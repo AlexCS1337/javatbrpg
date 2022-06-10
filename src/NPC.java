@@ -4,7 +4,7 @@ public class NPC {
     private String rank;
     private int level;
 
-    public Hero(String name, String rank, int level) {
+    public NPC(String name, String rank, int level) {
         this.name = name;
         this.rank = rank;
         this.level = level;
@@ -12,7 +12,7 @@ public class NPC {
 
     @Override
     public String toString() {
-        return "Hero{" +
+        return "NPC{" +
                 "name='" + name + '\'' +
                 ", rank='" + rank + '\'' +
                 ", level='" + level + '\'' +
@@ -21,7 +21,7 @@ public class NPC {
 
     //testing the class
     public static void main(String args[]) throws Exception {
-        NPC genericNPC = new NPC("Bob", "Theif", 1);
+        NPC genericNPC = new NPC("Bob","Theif", 1);
         System.out.println(genericNPC);
     }
 }
